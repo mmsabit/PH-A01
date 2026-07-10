@@ -29,7 +29,7 @@
     font-size: 16px;
 }
 
-.btn{
+.nav-btn{
     text-decoration: none;
     padding: 12px 40px;
     background-color: #1D4ED8;
@@ -37,4 +37,48 @@
     border-radius: 10px;
     font-size: 16px;
     font-weight: bold;
+    border: none;
+}
+
+.hero-section{
+    background-image: url(./assets/banner.jpg);
+    
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    padding: 135px 0 80px 0;
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-heading{
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+
+}
+
+.hero-text{
+    color: #FFFFFFE5;
+    text-align: center;
+    width: 830px;
+    margin-bottom: 280px;
+    font-size: 22px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 20px 60px;
+    background-color: #1D4ED8;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
 }
