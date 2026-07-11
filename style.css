@@ -14,7 +14,7 @@
     padding: 23px 0;
 }
 
-.logo img{
+.logo{
     max-width: 134px;
 }
 
@@ -29,6 +29,10 @@
     font-size: 16px;
 }
 
+.nav-link ul li a:hover{
+    color: #1D4ED8;
+}
+
 .nav-btn{
     text-decoration: none;
     padding: 12px 40px;
@@ -37,7 +41,12 @@
     border-radius: 10px;
     font-size: 16px;
     font-weight: bold;
-    border: none;
+    border: 1px solid #1D4ED8;
+}
+
+.nav-btn:hover, .btn:hover, .pro .price-btn:hover{
+    background-color: white;
+    color: #1D4ED8;
 }
 
 .hero-section{
@@ -81,6 +90,8 @@
     font-size: 20px;
     font-weight: bold;
     border: none;
+    cursor: pointer;
+    border: #1D4ED8 1px solid;
 }
 
 .container{
@@ -110,6 +121,10 @@
     border: #E5E7EB 1px solid;
     border-radius: 12px;
     overflow: hidden;
+}
+
+.speaker-card:hover{
+    border-color: #a1a1a1;
 }
 
 .speaker-info{
@@ -197,6 +212,12 @@
     font-weight: 500;
     margin-top: 20px;
 }
+
+.price-btn:hover{
+    background-color: #2563EB;
+    color: white;
+}
+
 .pro{
     background-color: #0D1B2A;
 }
@@ -259,6 +280,10 @@ footer{
     font-size: 26px;
 }
 
+.social-links a:hover{
+    color: #2563EB;
+}
+
 .foot hr{
     width: 100%;
     margin: 20px 0;
@@ -278,12 +303,16 @@ footer{
 .footer-link{
     list-style: none;
     display: flex;
-    gap:5px;
+    gap:15px;
 }
 
 .footer-link a{
     color: #ffffff7f;
     text-decoration: none;
+}
+
+.footer-link a:hover{
+    color: #fff;
 }
 
 .creative{
