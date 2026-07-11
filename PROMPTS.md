@@ -1,4 +1,4 @@
-![Screenshot](./assets/DevConf.png)
+Upload with Design Screenshot
 My prompt:give me a suggestion for a section of this website design. I want a Newsletter Signup section or Past Highlights section design at bottom. Now give me a idea for make this new section.
 
 

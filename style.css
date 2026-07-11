@@ -45,8 +45,9 @@
 }
 
 .nav-btn:hover, .btn:hover, .pro .price-btn:hover{
-    background-color: white;
+    background-color: transparent;
     color: #1D4ED8;
+    cursor: pointer;
 }
 
 .hero-section{
