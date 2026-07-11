@@ -119,6 +119,7 @@ social proof
 event credibility
 email collection
 Suggested Visual Layout
+```
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                     DevConf 2025 Highlights & Community                      │
 │                                                                              │
@@ -138,6 +139,7 @@ Suggested Visual Layout
 │                                                                              │
 │                                                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
+```
 Extra UI Details
 Add a subtle blue-to-purple gradient background (#F8FAFC → #EEF4FF).
 Use rounded corners (24px) and generous padding (80–100px top/bottom).
